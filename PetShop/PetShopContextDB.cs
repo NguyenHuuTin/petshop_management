@@ -1,14 +1,14 @@
+using System;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.Entity;
+using System.Linq;
+
 namespace PetShop
 {
-    using System;
-    using System.Data.Entity;
-    using System.ComponentModel.DataAnnotations.Schema;
-    using System.Linq;
-
     public partial class PetShopContextDB : DbContext
     {
         public PetShopContextDB()
-            : base("name=PetShopContextDB")
+            : base("name=PetShopContextDB1")
         {
         }
 
@@ -18,7 +18,7 @@ namespace PetShop
         public virtual DbSet<HOADON> HOADONs { get; set; }
         public virtual DbSet<KHACHHANG> KHACHHANGs { get; set; }
         public virtual DbSet<NHANVIEN> NHANVIENs { get; set; }
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
+        public virtual DbSet<TAIKHOAN> TAIKHOANs { get; set; }
         public virtual DbSet<THUCAN> THUCANs { get; set; }
         public virtual DbSet<THUCUNG> THUCUNGs { get; set; }
 
@@ -26,11 +26,6 @@ namespace PetShop
         {
             modelBuilder.Entity<CALAMVIEC>()
                 .Property(e => e.MANV)
-                .IsFixedLength()
-                .IsUnicode(false);
-
-            modelBuilder.Entity<CHITIETHD>()
-                .Property(e => e.MACT)
                 .IsFixedLength()
                 .IsUnicode(false);
 
@@ -101,6 +96,10 @@ namespace PetShop
                 .HasMany(e => e.THUCUNGs)
                 .WithMany(e => e.NHANVIENs)
                 .Map(m => m.ToTable("PHUCVU").MapLeftKey("MANV").MapRightKey("MATC"));
+
+            modelBuilder.Entity<TAIKHOAN>()
+                .Property(e => e.SDT)
+                .IsUnicode(false);
 
             modelBuilder.Entity<THUCAN>()
                 .Property(e => e.MATA)

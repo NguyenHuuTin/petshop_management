@@ -71,6 +71,7 @@
             this.ClientSize = new System.Drawing.Size(797, 886);
             this.Controls.Add(this.rpvHoaDon);
             this.Name = "ReportHoaDon";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hóa Đơn";
             this.Load += new System.EventHandler(this.ReportHoaDon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.CTHDBindingSource)).EndInit();

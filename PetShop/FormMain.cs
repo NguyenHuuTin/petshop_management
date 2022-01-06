@@ -135,7 +135,7 @@ namespace PetShop
             }
             dgvCLV.DataSource = dtclv;
 
-            String connectionstring = "Data Source=DESKTOP-F5QFG7D\\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
+            String connectionstring = @"Data Source=DESKTOP-F5QFG7D\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
             DataTable data = new DataTable();
             String query = " Select * from PHUCVU ";
             using (SqlConnection cnn = new SqlConnection(connectionstring))
@@ -189,11 +189,12 @@ namespace PetShop
         private void btnXoaCT_Click_1(object sender, EventArgs e)
         {
             PetShopContextDB context = new PetShopContextDB();
+            int mact = Convert.ToInt32(txtMACTHD.Text);
             if (txtMACTHD.Text != "")
             {
                 try
                 {
-                    CHITIETHD item = context.CHITIETHDs.FirstOrDefault(p => p.MACT == txtMACTHD.Text);
+                    CHITIETHD item = context.CHITIETHDs.FirstOrDefault(p => p.MACT == mact);
                     if (item != null)
                     {
                         context.CHITIETHDs.Remove(item);
@@ -236,9 +237,10 @@ namespace PetShop
         private void XoaCTHD(String mahd)
         {
             PetShopContextDB context = new PetShopContextDB();
+            int mact = Convert.ToInt32(txtMACTHD.Text);
                 try
                 {
-                    CHITIETHD item = context.CHITIETHDs.FirstOrDefault(p => p.MACT == txtMACTHD.Text);
+                    CHITIETHD item = context.CHITIETHDs.FirstOrDefault(p => p.MACT == mact);
                     List<CHITIETHD> listct = context.CHITIETHDs.Where(p => p.MAHD == mahd).ToList();
                     for(int i = 0; i < listct.Count; i++)
                     {
@@ -266,6 +268,11 @@ namespace PetShop
                         XoaCTHD(item.MAHD);
                         context.HOADONs.Remove(item);
                         context.SaveChanges();
+                        txtMAHD.Text = "";
+                        txtMAKHHD.Text = "";
+                        txtMANVHD.Text = "";
+                        dtpNGAYLAPHD.Text = "";
+                        txtTTHD.Text = "";
                         MessageBox.Show("Xóa thành công");
                     }
                     else MessageBox.Show("Không tìm thấy đối tượng cần xóa trong CSDL");
@@ -299,7 +306,7 @@ namespace PetShop
                 String madv = txtMaDV.Text;
                 String tendv = txtTenDV.Text;
                 int giadv = Convert.ToInt32(txtGiaDV.Text);
-                String connectionstring = "Data Source=DESKTOP-F5QFG7D\\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
+                String connectionstring = @"Data Source=DESKTOP-F5QFG7D\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
                 String qeurycount = " INSERT INTO DICHVU (MADV,TEN,GIA) VALUES ('" + madv + "', N'" + tendv + "'," + giadv + " ) ";
                 using (SqlConnection cnn = new SqlConnection(connectionstring))
                 {
@@ -396,7 +403,7 @@ namespace PetShop
                 String mata = txtMaTA.Text;
                 String tenta = txtTenTA.Text;
                 int giata = Convert.ToInt32(txtGiaTA.Text);
-                String connectionstring = "Data Source=DESKTOP-F5QFG7D\\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
+                String connectionstring = @"Data Source=DESKTOP-F5QFG7D\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
                 String qeurycount = " INSERT INTO THUCAN(MATA,TEN,GIA) VALUES ('" + mata + "', N'" + tenta + "'," + giata + " ) ";
                 using (SqlConnection cnn = new SqlConnection(connectionstring))
                 {
@@ -540,7 +547,7 @@ namespace PetShop
                 int salary = Convert.ToInt32(txtPhoneNV.Text);
                 string phone = txtSalaryNV.Text;
 
-                String connectionstring = "Data Source=DESKTOP-F5QFG7D\\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
+                String connectionstring = @"Data Source=DESKTOP-F5QFG7D\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
                 String qeurycount = " INSERT INTO NHANVIEN (MANV,HO_TENNV,SDT,LUONG) VALUES ('" + id + "', N'" + name + "'," + salary + ", '" + phone + "' ) ";
                 using (SqlConnection cnn = new SqlConnection(connectionstring))
                 {
@@ -638,7 +645,7 @@ namespace PetShop
                 String address = txtAddressKH.Text;
                 string phone = txtPhoneKH.Text;
 
-                String connectionstring = "Data Source=DESKTOP-F5QFG7D\\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
+                String connectionstring = @"Data Source=DESKTOP-F5QFG7D\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
                 String qeurycount = " INSERT INTO KHACHHANG (MAKH,HO_TENKH,DCKH,SDTKH) VALUES  ('" + id + "', N'" + name + "',N'" + address + "', '" + phone + "' ) ";
                 using (SqlConnection cnn = new SqlConnection(connectionstring))
                 {
@@ -737,7 +744,7 @@ namespace PetShop
                 int age = Convert.ToInt32(txtAgeTC.Text);
                 String giong = txtGiongLoai.Text;
 
-                String connectionstring = "Data Source=DESKTOP-F5QFG7D\\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
+                String connectionstring = @"Data Source=DESKTOP-F5QFG7D\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
                 String qeurycount = " INSERT INTO THUCUNG (MATC,MACN,TEN,TUOI,GIONG) VALUES  ('" + idtc + "', '" + idcn + "',N'" + name + "', " + age + " , '" + giong + "') ";
                 using (SqlConnection cnn = new SqlConnection(connectionstring))
                 {
@@ -772,7 +779,7 @@ namespace PetShop
                 int age = Convert.ToInt32(txtAgeTC.Text);
                 String giong = txtGiongLoai.Text;
 
-                String connectionstring = "Data Source=DESKTOP-F5QFG7D\\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
+                String connectionstring = @"Data Source=DESKTOP-F5QFG7D\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
                 String qeurycount = " update THUCUNG set  MACN = '" + idcn + "' , TEN = '" + name + "', TUOI = " + age + " , GIONG = '" + giong + "' where MATC = '" + idtc + "' ";
                 using (SqlConnection cnn = new SqlConnection(connectionstring))
                 {
@@ -837,7 +844,7 @@ namespace PetShop
                 DateTime ngaylamviec = Convert.ToDateTime(dtpNgayLamViec.Value);
                 String nv = cbbIDNVCLV.SelectedValue.ToString();
 
-                String connectionstring = "Data Source=DESKTOP-F5QFG7D\\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
+                String connectionstring = @"Data Source=DESKTOP-F5QFG7D\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
                 String qeurycount = " INSERT INTO CALAMVIEC (BUOI,NGAY,MANV) VALUES (N'" + buoi + "', '" + ngaylamviec + "','" + nv + "') ";
                 using (SqlConnection cnn = new SqlConnection(connectionstring))
                 {
@@ -901,7 +908,7 @@ namespace PetShop
                 String idtc = cbbIDTCPV.SelectedValue.ToString();
 
 
-                String connectionstring = "Data Source=DESKTOP-F5QFG7D\\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
+                String connectionstring = @"Data Source=DESKTOP-F5QFG7D\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
                 String qeurycount = " INSERT INTO PHUCVU (MANV,MATC) VALUES ('" + idnv + "', '" + idtc + "') ";
                 
                 using (SqlConnection cnn = new SqlConnection(connectionstring))
@@ -933,7 +940,7 @@ namespace PetShop
                 String idnv = cbbIDNVPV.SelectedValue.ToString();
                 String idtc = cbbIDTCPV.SelectedValue.ToString();
 
-                String connectionstring = "Data Source=DESKTOP-F5QFG7D\\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
+                String connectionstring = @"Data Source=DESKTOP-F5QFG7D\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
                 String qeurycount = " DELETE FROM PHUCVU WHERE MANV = '" + idnv + "' AND MATC = '" + idtc + "' ";
                 using (SqlConnection cnn = new SqlConnection(connectionstring))
                 {
@@ -974,6 +981,11 @@ namespace PetShop
         }
 
         private void label37_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbbIDCN_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

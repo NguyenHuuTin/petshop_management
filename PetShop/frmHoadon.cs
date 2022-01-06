@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 namespace PetShop
@@ -12,7 +13,11 @@ namespace PetShop
         public frmHoadon()
         {
             InitializeComponent();
-            
+            this.Text = String.Empty;
+            this.ControlBox = false;
+            this.DoubleBuffered = true;
+            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+
         }
         int dong = 0;
         
@@ -109,7 +114,35 @@ namespace PetShop
             
         }
 
-        private void btnInHD_Click(object sender, EventArgs e)
+        private void btnThemHD_Click_1(object sender, EventArgs e)
+        {
+            String connection = @"Data Source=DESKTOP-F5QFG7D\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
+            SqlConnection con = new SqlConnection(connection);
+            con.Open();
+            String query = "select Top 1 * from HOADON order by MAHD DESC";
+            SqlCommand comand = new SqlCommand(query, con);
+            SqlDataAdapter adp = new SqlDataAdapter(comand);
+            DataTable dt = new DataTable();
+            adp.Fill(dt);
+            con.Close();
+            if (dt.Rows.Count > 0)
+            {
+                String sohd = dt.Rows[0]["MAHD"].ToString();
+
+                String strhd = sohd.Substring(1, sohd.Length - 1);
+                int d = Convert.ToInt32(strhd);
+                if (d < 9)
+                {
+                    txtSOHD.Text = "H00" + (d + 1);
+                }
+                else txtSOHD.Text = "H0" + (d + 1);
+
+
+            }
+            else txtSOHD.Text = "H001";
+        }
+
+        private void btnInHD_Click_1(object sender, EventArgs e)
         {
             if (txtSOHD.Text != "")
             {
@@ -118,7 +151,7 @@ namespace PetShop
                     try
                     {
                         PetShopContextDB context = new PetShopContextDB();
-                        String connection = "Data Source=DESKTOP-F5QFG7D\\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa;password = 0369";
+                        String connection = @"Data Source=DESKTOP-F5QFG7D\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa; password=0369";
                         SqlConnection con1 = new SqlConnection(connection);
                         con1.Open();
                         String mhd = txtSOHD.Text;
@@ -142,7 +175,7 @@ namespace PetShop
                             int dongia = Convert.ToInt32(dgvChiTietDonHang.Rows[i].Cells[2].Value);
                             int tt = Convert.ToInt32(dgvChiTietDonHang.Rows[i].Cells[3].Value);
 
-                            SqlConnection con0 = new SqlConnection(connection);
+                            /*SqlConnection con0 = new SqlConnection(connection);
                             con0.Open();//order by MACT DESC
                             String query0 = "select  * from CHITIETHD ";
                             SqlCommand comand0 = new SqlCommand(query0, con0);
@@ -158,17 +191,17 @@ namespace PetShop
                             }
                             //int temp = Convert.ToInt32(dt0.Rows[0]["MACT"].ToString());
                             int temp = max;
-                            String mact = Convert.ToString(temp + 1);
+                            String mact = Convert.ToString(temp + 1);*/
                             DICHVU dv = context.DICHVUs.FirstOrDefault(p => p.MADV == d);
                             THUCAN ta = context.THUCANs.FirstOrDefault(p => p.MATA == d);
                             String mahd = txtSOHD.Text;
                             if (dv != null)
                             {
-                                query = " INSERT INTO CHITIETHD (MACT,MAHD,MADV,SOLUONG,DONGIA,T_TIEN) VALUES ('" + mact + "','" + mahd + "','" + d + "', " + sl + ", " + dongia + " , " + tt + ") ";
+                                query = " INSERT INTO CHITIETHD (MAHD,MADV,SOLUONG,DONGIA,T_TIEN) VALUES ('" + mahd + "','" + d + "', " + sl + ", " + dongia + " , " + tt + ") ";
                             }
                             if (ta != null)
                             {
-                                query = " INSERT INTO CHITIETHD (MACT,MAHD,MATA,SOLUONG,DONGIA,T_TIEN) VALUES ('" + mact + "','" + mahd + "','" + d + "', " + sl + ", " + dongia + " , " + tt + ") ";
+                                query = " INSERT INTO CHITIETHD (MAHD,MATA,SOLUONG,DONGIA,T_TIEN) VALUES ('" + mahd + "','" + d + "', " + sl + ", " + dongia + " , " + tt + ") ";
                             }
 
                             SqlConnection con = new SqlConnection(connection);
@@ -178,15 +211,17 @@ namespace PetShop
                             comand.ExecuteNonQuery();
                             con.Close();
                         }
+                        ReportHoaDon.Sohd = mhd;
                         ReportHoaDon report = new ReportHoaDon();
                         report.ShowDialog();
+
                     }
                     catch (Exception)
                     {
                         MessageBox.Show("Lỗi hệ thống!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
-                else MessageBox.Show("Bạn chưa có mặt hàng nào!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);   
+                else MessageBox.Show("Bạn chưa có mặt hàng nào!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -194,19 +229,25 @@ namespace PetShop
             }
         }
 
-        private void btnThemHD_Click(object sender, EventArgs e)
+        private void dgvChiTietDonHang_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            String connection = "Data Source=DESKTOP-F5QFG7D\\SQLEXPRESS;Initial Catalog=NEWPETSHOP;User ID=sa;password = 0369";
-            SqlConnection con = new SqlConnection(connection);
-            con.Open();
-            String query = "select Top 1 * from HOADON order by MAHD DESC";
-            SqlCommand comand = new SqlCommand(query, con);
-            SqlDataAdapter adp = new SqlDataAdapter(comand);
-            DataTable dt = new DataTable();
-            adp.Fill(dt);
-            con.Close();
-            int d = Convert.ToInt32(dt.Rows[0]["MAHD"].ToString());
-            txtSOHD.Text = Convert.ToString(d + 1);
+
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+
+        private void frmHoadon_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
     public class DichVuThucAn

@@ -75,3 +75,180 @@ C:\Users\DELL\source\repos\PetShop\PetShop\bin\Debug\ru\Microsoft.ReportViewer.W
 C:\Users\DELL\source\repos\PetShop\PetShop\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\DELL\source\repos\PetShop\PetShop\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\DELL\source\repos\PetShop\PetShop\bin\Debug\RptReport.rdlc
+C:\Users\DELL\source\repos\PetShop\PetShop\obj\Debug\PetShop.csprojAssemblyReference.cache
+C:\Users\DELL\source\repos\PetShop\PetShop\obj\Debug\PetShop.csproj.CoreCompileInputs.cache
+D:\Visual Project\PetShop\PetShop\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\RptReport.rdlc
+D:\Visual Project\PetShop\PetShop\bin\Debug\PetShop.exe.config
+D:\Visual Project\PetShop\PetShop\bin\Debug\PetShop.exe
+D:\Visual Project\PetShop\PetShop\bin\Debug\PetShop.pdb
+D:\Visual Project\PetShop\PetShop\bin\Debug\EntityFramework.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\EnvDTE.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\stdole.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\Microsoft.MSXML.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\EntityFramework.xml
+D:\Visual Project\PetShop\PetShop\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual Project\PetShop\PetShop\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Project\PetShop\PetShop\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Project\PetShop\PetShop\obj\Debug\PetShop.csproj.AssemblyReference.cache
+D:\Visual Project\PetShop\PetShop\obj\Debug\PetShop.csproj.SuggestedBindingRedirects.cache
+D:\Visual Project\PetShop\PetShop\obj\Debug\PetShop.FormLogin.resources
+D:\Visual Project\PetShop\PetShop\obj\Debug\PetShop.FormMain.resources
+D:\Visual Project\PetShop\PetShop\obj\Debug\PetShop.frmHoadon.resources
+D:\Visual Project\PetShop\PetShop\obj\Debug\PetShop.Properties.Resources.resources
+D:\Visual Project\PetShop\PetShop\obj\Debug\PetShop.ReportHoaDon.resources
+D:\Visual Project\PetShop\PetShop\obj\Debug\PetShop.csproj.GenerateResource.cache
+D:\Visual Project\PetShop\PetShop\obj\Debug\PetShop.csproj.CoreCompileInputs.cache
+D:\Visual Project\PetShop\PetShop\obj\Debug\PetShop.csproj.CopyComplete
+D:\Visual Project\PetShop\PetShop\obj\Debug\PetShop.exe
+D:\Visual Project\PetShop\PetShop\obj\Debug\PetShop.pdb
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\RptReport.rdlc
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\PetShop.exe.config
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\PetShop.exe
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\PetShop.pdb
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\EntityFramework.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\EntityFramework.SqlServer.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\FontAwesome.Sharp.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\EnvDTE.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\stdole.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\Microsoft.MSXML.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\EntityFramework.xml
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\EntityFramework.SqlServer.xml
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.csproj.AssemblyReference.cache
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.csproj.SuggestedBindingRedirects.cache
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.FormLogin.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.FormMain.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.FormManage.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.frmHoadon.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.Properties.Resources.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.ReportHoaDon.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.csproj.GenerateResource.cache
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.csproj.CoreCompileInputs.cache
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.csproj.CopyComplete
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.exe
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.pdb
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.Forms.FormCustomer.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.Forms.FormPet.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.Forms.FormFood.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.FormStaff.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.Forms.FormOrders.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.Forms.FormService.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.Forms.FormCLV.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.Forms.FormServe.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.Forms.FormDashboar.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.Forms.FormHome.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.FormPetShop.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.Forms.FormCLVPetShop.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.Forms.FormOrderPetShop.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.Forms.FormServerPetShop.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.FormCTHD.resources
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\bin\Debug\Guna.UI2.dll
+D:\Năm 4\HK 1\PTvsTKHDT\PetShop\PetShop\obj\Debug\PetShop.FormLoginPetShop.resources

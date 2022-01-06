@@ -142,8 +142,8 @@
             this.cbbIDTCPV = new System.Windows.Forms.ComboBox();
             this.cbbIDNVPV = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label37 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNV)).BeginInit();
@@ -503,6 +503,7 @@
             this.cbbIDCN.Name = "cbbIDCN";
             this.cbbIDCN.Size = new System.Drawing.Size(264, 32);
             this.cbbIDCN.TabIndex = 51;
+            this.cbbIDCN.SelectedIndexChanged += new System.EventHandler(this.cbbIDCN_SelectedIndexChanged);
             // 
             // txtGiongLoai
             // 
@@ -1418,16 +1419,6 @@
             this.panel1.Size = new System.Drawing.Size(1125, 5);
             this.panel1.TabIndex = 3;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::PetShop.Properties.Resources.pngtree_pet_supplies_promotion_e_commerce_poster_background_image_199404;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1129, 206);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
             // label37
             // 
             this.label37.AutoSize = true;
@@ -1440,6 +1431,16 @@
             this.label37.TabIndex = 4;
             this.label37.Text = "VuiVui PETSHOP";
             this.label37.Click += new System.EventHandler(this.label37_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::PetShop.Properties.Resources.pngtree_pet_supplies_promotion_e_commerce_poster_background_image_199404;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1129, 206);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
             // 
             // FormMain
             // 

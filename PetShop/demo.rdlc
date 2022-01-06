@@ -447,7 +447,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Vui Vui PetShop</Value>
+                    <Value>PetShop</Value>
                     <Style>
                       <FontFamily>.VnFreeH</FontFamily>
                       <FontSize>18pt</FontSize>

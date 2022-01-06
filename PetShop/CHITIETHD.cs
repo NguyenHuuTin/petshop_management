@@ -10,8 +10,7 @@ namespace PetShop
     public partial class CHITIETHD
     {
         [Key]
-        [StringLength(10)]
-        public string MACT { get; set; }
+        public int MACT { get; set; }
 
         [StringLength(5)]
         public string MAHD { get; set; }
